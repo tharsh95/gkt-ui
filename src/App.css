@@ -1,0 +1,69 @@
+/* TableComponent.css */
+.container {
+  margin: 2rem;
+}
+
+.custom-table {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table thead {
+  background-color: #333;
+  color: white;
+}
+.pgbtn {
+  width: 35px;
+  height: 35px;
+border-radius: 50%;
+  /* border:2px solid #3498db; */
+  background-color: #294054;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+}
+.pgebtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #1990FF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+}
+.btn{
+  /* position: fixed; */
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.disabled{
+  background-color: gray;
+
+}
+.remove{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* justify-content:; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:rgb(226, 53, 82);
+  color: white;
+}
